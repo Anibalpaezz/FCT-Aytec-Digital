@@ -1,47 +1,65 @@
 -- Eliminar tablas si existen
-DROP TABLE IF EXISTS usuarios;
-DROP TABLE IF EXISTS productos;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS stock;
 DROP TABLE IF EXISTS menus;
-DROP TABLE IF EXISTS recetas;
--- Crear tabla usuarios
-CREATE TABLE usuarios (
+DROP TABLE IF EXISTS recipes;
+
+-- Crear tabla users
+CREATE TABLE users (
      id SERIAL PRIMARY KEY,
-     nombre VARCHAR(30) NOT NULL UNIQUE,
-     pass VARCHAR(30) NOT NULL
+     name VARCHAR(30) NOT NULL UNIQUE,
+     password VARCHAR(30) NOT NULL,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+     modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
--- Crear tabla productos
-CREATE TABLE productos (
+
+-- Crear tabla products
+CREATE TABLE products (
      id SERIAL PRIMARY KEY,
-     nombre VARCHAR(50) NOT NULL,
-     supercategoria VARCHAR(50),
-     categoria VARCHAR(50),
-     subcategoria VARCHAR(50),
-     precio NUMERIC(10, 2) NOT NULL,
-     fotografia TEXT
+     name VARCHAR(50) NOT NULL,
+     supercategory VARCHAR(50),
+     category VARCHAR(50),
+     subcategory VARCHAR(50),
+     price NUMERIC(10, 2) NOT NULL,
+     photo TEXT,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+     modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 -- Crear tabla stock
 CREATE TABLE stock (
      id SERIAL PRIMARY KEY,
-     nombre VARCHAR(50) NOT NULL,
-     supercategoria VARCHAR(50),
-     categoria VARCHAR(50),
-     subcategoria VARCHAR(50),
-     precio NUMERIC(10, 2) NOT NULL,
-     fotografia TEXT,
-     cantidad INT NOT NULL CHECK (cantidad >= 0)
+     name VARCHAR(50) NOT NULL,
+     supercategory VARCHAR(50),
+     category VARCHAR(50),
+     subcategory VARCHAR(50),
+     price NUMERIC(10, 2) NOT NULL,
+     photo TEXT,
+     amount INT NOT NULL CHECK (amount >= 0),
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+     modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 -- Crear tabla menus
 CREATE TABLE menus (
      id SERIAL PRIMARY KEY,
-     nombre VARCHAR(50) NOT NULL,
-     comensales INT NOT NULL CHECK (comensales > 0)
+     name VARCHAR(50) NOT NULL,
+     diners INT NOT NULL CHECK (diners > 0),
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+     modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
--- Crear tabla recetas
-CREATE TABLE recetas (
+
+-- Crear tabla recipes
+CREATE TABLE recipes (
      id SERIAL PRIMARY KEY,
-     nombre VARCHAR(50) NOT NULL,
-     comensales INT NOT NULL CHECK (comensales > 0),
-     ingredientes TEXT NOT NULL,
-     valor_nutricional TEXT NOT NULL
+     name VARCHAR(50) NOT NULL,
+     diners INT NOT NULL CHECK (diners > 0),
+     ingredients TEXT NOT NULL,
+     nutritional_value TEXT NOT NULL,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+     modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Agregar columna uid en users como clave foránea de la tabla users en supabase de auth
+ALTER TABLE users ADD COLUMN uid UUID REFERENCES auth.users(id);
