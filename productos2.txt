@@ -1,0 +1,179 @@
+ID 1: Fruta y verdura
+  Subcategoría ID 27: Fruta
+  Subcategoría ID 28: Lechuga y ensalada preparada
+  Subcategoría ID 29: Verdura
+ID 2: Marisco y pescado
+  Subcategoría ID 31: Pescado fresco
+  Subcategoría ID 32: Marisco
+  Subcategoría ID 33: Pescado en bandeja
+  Subcategoría ID 34: Pescado congelado
+  Subcategoría ID 36: Salazones y ahumados
+  Subcategoría ID 789: Sushi
+ID 3: Carne
+  Subcategoría ID 37: Cerdo
+  Subcategoría ID 38: Aves y pollo
+  Subcategoría ID 40: Vacuno
+  Subcategoría ID 42: Conejo y cordero
+  Subcategoría ID 43: Embutido
+  Subcategoría ID 44: Hamburguesas y carne picada
+  Subcategoría ID 45: Empanados y elaborados
+  Subcategoría ID 46: Arreglos
+  Subcategoría ID 47: Carne congelada
+ID 4: Charcutería y quesos
+  Subcategoría ID 48: Aves y jamón cocido
+  Subcategoría ID 49: Chopped y mortadela
+  Subcategoría ID 50: Jamón serrano
+  Subcategoría ID 51: Embutido curado
+  Subcategoría ID 52: Bacón y salchichas
+  Subcategoría ID 53: Queso untable y fresco
+  Subcategoría ID 54: Queso curado, semicurado y tierno
+  Subcategoría ID 56: Queso lonchas, rallado y en porciones
+  Subcategoría ID 58: Paté y sobrasada
+ID 5: Panadería y pastelería
+  Subcategoría ID 59: Pan de horno
+  Subcategoría ID 60: Pan de molde y otras especialidades
+  Subcategoría ID 62: Pan tostado y rallado
+  Subcategoría ID 64: Picos, rosquilletas y picatostes
+  Subcategoría ID 65: Bollería de horno
+  Subcategoría ID 66: Bollería envasada
+  Subcategoría ID 68: Tartas y pasteles
+  Subcategoría ID 69: Harina y preparado repostería
+  Subcategoría ID 71: Velas y decoración
+ID 6: Huevos, leche y mantequilla
+  Subcategoría ID 72: Leche y bebidas vegetales
+  Subcategoría ID 75: Mantequilla y margarina
+  Subcategoría ID 77: Huevos
+ID 7: Cereales y galletas
+  Subcategoría ID 78: Cereales
+  Subcategoría ID 79: Tortitas
+  Subcategoría ID 80: Galletas
+ID 8: Cacao, café e infusiones
+  Subcategoría ID 81: Café cápsula y monodosis
+  Subcategoría ID 83: Café molido y en grano
+  Subcategoría ID 84: Café soluble y otras bebidas
+  Subcategoría ID 86: Cacao soluble y chocolate a la taza
+  Subcategoría ID 88: Té e infusiones
+ID 9: Azúcar, caramelos y chocolate
+  Subcategoría ID 89: Azúcar y edulcorante
+  Subcategoría ID 90: Mermelada y miel
+  Subcategoría ID 92: Chocolate
+  Subcategoría ID 95: Chicles y caramelos
+  Subcategoría ID 97: Golosinas
+ID 10: Zumos
+  Subcategoría ID 98: Tomate y otros sabores
+  Subcategoría ID 99: Fruta variada
+  Subcategoría ID 100: Melocotón y piña
+  Subcategoría ID 143: Naranja
+ID 11: Postres y yogures
+  Subcategoría ID 103: Yogures desnatados
+  Subcategoría ID 104: Yogures naturales y sabores
+  Subcategoría ID 105: Yogures bífidus
+  Subcategoría ID 106: Yogures de soja
+  Subcategoría ID 107: Yogures y postres infantiles
+  Subcategoría ID 108: Yogures líquidos
+  Subcategoría ID 109: Yogures griegos
+  Subcategoría ID 110: Flan y natillas
+  Subcategoría ID 111: Gelatina y otros postres
+ID 12: Aceite, especias y salsas
+  Subcategoría ID 112: Aceite, vinagre y sal
+  Subcategoría ID 115: Especias
+  Subcategoría ID 116: Mayonesa, ketchup y mostaza
+  Subcategoría ID 117: Otras salsas
+ID 13: Arroz, legumbres y pasta
+  Subcategoría ID 118: Arroz
+  Subcategoría ID 120: Pasta y fideos
+  Subcategoría ID 121: Legumbres
+ID 14: Conservas, caldos y cremas
+  Subcategoría ID 122: Atún y otras conservas de pescado
+  Subcategoría ID 123: Berberechos y mejillones
+  Subcategoría ID 126: Tomate
+  Subcategoría ID 127: Conservas de verdura y frutas
+  Subcategoría ID 129: Sopa y caldo
+  Subcategoría ID 130: Gazpacho y cremas
+ID 15: Aperitivos
+  Subcategoría ID 132: Patatas fritas y snacks
+  Subcategoría ID 133: Frutos secos y fruta desecada
+  Subcategoría ID 135: Aceitunas y encurtidos
+ID 16: Pizzas y platos preparados
+  Subcategoría ID 138: Pizzas
+  Subcategoría ID 140: Platos preparados calientes
+  Subcategoría ID 142: Platos preparados fríos
+ID 17: Congelados
+  Subcategoría ID 145: Verdura
+  Subcategoría ID 147: Arroz y pasta
+  Subcategoría ID 148: Carne
+  Subcategoría ID 149: Pescado
+  Subcategoría ID 150: Marisco
+  Subcategoría ID 151: Pizzas
+  Subcategoría ID 152: Tartas y churros
+  Subcategoría ID 154: Helados
+  Subcategoría ID 155: Hielo
+ID 18: Agua y refrescos
+  Subcategoría ID 156: Agua
+  Subcategoría ID 158: Refresco de cola
+  Subcategoría ID 159: Refresco de naranja y de limón
+  Subcategoría ID 161: Tónica y bitter
+  Subcategoría ID 162: Refresco de té y sin gas
+  Subcategoría ID 163: Isotónico y energético
+ID 19: Bodega
+  Subcategoría ID 164: Cerveza
+  Subcategoría ID 166: Cerveza sin alcohol
+  Subcategoría ID 168: Tinto de verano y sangría
+  Subcategoría ID 169: Vino tinto
+  Subcategoría ID 170: Vino blanco
+  Subcategoría ID 171: Vino rosado
+  Subcategoría ID 173: Vino lambrusco y espumoso
+  Subcategoría ID 174: Sidra y cava
+  Subcategoría ID 181: Licores
+ID 20: Cuidado facial y corporal
+  Subcategoría ID 185: Cuidado e higiene facial
+  Subcategoría ID 186: Higiene bucal
+  Subcategoría ID 187: Gel y jabón de manos
+  Subcategoría ID 188: Desodorante
+  Subcategoría ID 189: Cuidado corporal
+  Subcategoría ID 190: Higiene íntima
+  Subcategoría ID 191: Depilación
+  Subcategoría ID 192: Afeitado y cuidado para hombre
+  Subcategoría ID 194: Manicura y pedicura
+  Subcategoría ID 196: Perfume y colonia
+  Subcategoría ID 198: Protector solar y aftersun
+  Subcategoría ID 782: Neceseres
+ID 21: Cuidado del cabello
+  Subcategoría ID 199: Champú
+  Subcategoría ID 201: Acondicionador y mascarilla
+  Subcategoría ID 202: Fijación cabello
+  Subcategoría ID 203: Coloración cabello
+  Subcategoría ID 205: Peines y accesorios
+ID 22: Maquillaje
+  Subcategoría ID 206: Bases de maquillaje y corrector
+  Subcategoría ID 207: Colorete y polvos
+  Subcategoría ID 208: Labios
+  Subcategoría ID 210: Ojos
+  Subcategoría ID 212: Pinceles y brochas
+ID 23: Fitoterapia y parafarmacia
+  Subcategoría ID 213: Fitoterapia
+  Subcategoría ID 214: Parafarmacia
+ID 24: Bebé
+  Subcategoría ID 216: Alimentación infantil
+  Subcategoría ID 217: Toallitas y pañales
+  Subcategoría ID 218: Higiene y cuidado
+  Subcategoría ID 219: Biberón, chupete y menaje
+ID 25: Mascotas
+  Subcategoría ID 221: Perro
+  Subcategoría ID 222: Gato
+  Subcategoría ID 225: Pez y otros
+ID 26: Limpieza y hogar
+  Subcategoría ID 226: Detergente y suavizante ropa
+  Subcategoría ID 229: Limpieza vajilla
+  Subcategoría ID 230: Limpieza cocina
+  Subcategoría ID 231: Limpieza baño y WC
+  Subcategoría ID 232: Limpieza muebles y multiusos
+  Subcategoría ID 233: Limpiahogar y fregasuelos
+  Subcategoría ID 234: Lejía y líquidos fuertes
+  Subcategoría ID 235: Limpiacristales
+  Subcategoría ID 237: Estropajo, bayeta y guantes
+  Subcategoría ID 238: Papel higiénico y celulosa
+  Subcategoría ID 239: Pilas y bolsas de basura
+  Subcategoría ID 241: Insecticida y ambientador
+  Subcategoría ID 243: Menaje y conservación de alimentos
+  Subcategoría ID 244: Utensilios de limpieza y calzado

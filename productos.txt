@@ -1,0 +1,26 @@
+ID 1: Fruta y verdura
+ID 2: Marisco y pescado
+ID 3: Carne
+ID 4: Charcutería y quesos
+ID 5: Panadería y pastelería
+ID 6: Huevos, leche y mantequilla
+ID 7: Cereales y galletas
+ID 8: Cacao, café e infusiones
+ID 9: Azúcar, caramelos y chocolate
+ID 10: Zumos
+ID 11: Postres y yogures
+ID 12: Aceite, especias y salsas
+ID 13: Arroz, legumbres y pasta
+ID 14: Conservas, caldos y cremas
+ID 15: Aperitivos
+ID 16: Pizzas y platos preparados
+ID 17: Congelados
+ID 18: Agua y refrescos
+ID 19: Bodega
+ID 20: Cuidado facial y corporal
+ID 21: Cuidado del cabello
+ID 22: Maquillaje
+ID 23: Fitoterapia y parafarmacia
+ID 24: Bebé
+ID 25: Mascotas
+ID 26: Limpieza y hogar
